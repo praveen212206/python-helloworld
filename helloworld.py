@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello, World!"
+    return "Hello , India!"
 
 def parse_args():
     parser = argparse.ArgumentParser(description='A simple example program to print a friendly greeting and start a server.')
@@ -23,7 +23,7 @@ def main(argv=None):
     if '--port' in argv:
         app.run(host='0.0.0.0', port=args.port)
     else:
-        print("Hello, world")
+        print("Hello, India")
 
     return 0
 
